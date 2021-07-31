@@ -55,11 +55,19 @@ node -v (your desktop will show nodejs is not installed, unless you actually ins
 
 docker ps -a (see all containers id and name, e.g. my CentOS container is called laughing_volhard)
 (laughing_volhard is the default container name, I did not create that name)
+
 docker ps -l
-docker start 3d09efb1f56f (the number is the container id from docker ps command) or
+
+docker start 3d09efb1f56f (the number is the container id from docker ps command) 
+
+or
+
 docker start laughing_volhard
+
 docker attach laughing_volhard (attach to a running container if you have mulitple running containers)
+
 docker stop laughing_volhard
+
 docker rm laughing_volhard (delete container)
 
 <br><br>
